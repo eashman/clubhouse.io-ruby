@@ -13,7 +13,7 @@ module Clubhouse
                           :updated_at, :workflow_state_id
 
     attributes_for_update :after_id, :archived, :before_id, :deadline, :description, :epic_id,
-                          :estimate, :file_ids, :follower_ids, :labels, :linked_file_ids, :name,
+                          :estimate, :file_ids, :follower_ids, :labels, :linked_file_ids, :name, :external_id,
                           :owner_ids, :project_id, :requested_by_id, :story_type, :workflow_state_id
 
 
